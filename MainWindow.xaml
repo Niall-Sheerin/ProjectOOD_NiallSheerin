@@ -1,0 +1,18 @@
+﻿<Window x:Class="ProjectOOD_NiallSheerin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectOOD_NiallSheerin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid Margin="0,0,0,1">
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="319" Margin="37,61,0,0" VerticalAlignment="Top" Width="186"/>
+        <Label x:Name="lbCounties" Content="List of Counties" HorizontalAlignment="Left" Margin="37,21,0,0" VerticalAlignment="Top" Height="35" Width="157" FontSize="20"/>
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="319" Margin="253,61,0,0" VerticalAlignment="Top" Width="232"/>
+        <Label x:Name="lbPlayers" Content="Players List" HorizontalAlignment="Left" Margin="253,19,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <ComboBox x:Name="cbxPosition" HorizontalAlignment="Left" Margin="365,34,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="567,61,0,0" VerticalAlignment="Top" Width="95" Height="26"/>
+
+    </Grid>
+</Window>

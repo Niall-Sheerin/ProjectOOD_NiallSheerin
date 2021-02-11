@@ -28,7 +28,8 @@ namespace ProjectOOD_NiallSheerin
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             //Player positions
-            string[] positions = {"Goalie", "Backs", "Mid-Field", "Fowards" }
+            string[] positions = { "Goalie", "Backs", "Mid-Field", "Fowards" };
+            cbxPosition.ItemsSource = positions;
         }
     }
 }
